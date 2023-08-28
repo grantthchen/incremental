@@ -1,4 +1,4 @@
-let firstButton = {id:"firstButtonDisplay", count:0};
+let nomis = {id:"nomisDisplay", count:0};
 
 function increment(currency){
   currency.count += 1;
