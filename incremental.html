@@ -2,20 +2,29 @@
 <html>
 
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="incremental.css">
 </head>
 
 <body>
-    <div id="firstdiv">
+    <!-- Title text-->
+    <div id="title">
         <h1>Hello, world!</h1>
     </div>
-    <div id="nomis">
-        <button onMouseDown="increment(nomis)">+1</button>
-    </div>
-    <div id="nomisDisplayDiv">
+    <!-- Count display -->
+    <div id="nomisCountDisplay">
         <h2 id="nomisDisplay">0</h2>
     </div>
+    <!-- Main button to increment -->
+    <div id="nomiButton">
+        <button onMouseDown="nomiButtonIncrement(nomis)">+1</button>
+        <!-- <input type="button" onclick="nomiButtonIncrement(nomis)" value="+1"> -->
+    </div>
+    <!-- Range slider to increment-->
+    <div id="nomiSlider">
+    </div>
+    <!-- JS call-->
     <script type="text/javascript" src="incremental.js"></script>
 </body>
 
